@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Flight Booking Suite" thread-count="2" parallel="tests" verbose="3">
+  <test thread-count="5" name="Android Test" parallel="methods">
+    <classes>
+    <class name="com.testingfoo.grid.AppiumGridTest">
+      <methods>
+        <include name="testAndroid" />
+      </methods>
+    </class>
+  </classes>
+  </test> <!-- Test -->
+   <test thread-count="5" name="iOS Test" parallel="methods">
+    <classes>
+    <class name="com.testingfoo.grid.AppiumGridTest">
+      <methods>
+        <include name="testIOS_2" />
+      </methods>
+    </class>
+  </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
