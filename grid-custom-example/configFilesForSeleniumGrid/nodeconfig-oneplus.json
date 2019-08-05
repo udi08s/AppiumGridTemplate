@@ -1,0 +1,22 @@
+{
+  "capabilities":
+  [
+    {
+    "udid": "dfa3b957",
+    "platformVersion": "9.0",
+    "maxInstances": 1,
+    "platformName": "Android",
+    "browserName": "Chrome",
+    "automationName":"UiAutomator2"
+    }
+  ],
+    "cleanUpCycle":2000,
+    "timeout":30000,
+    "nodePolling": 60000,
+    "proxy": "org.openqa.grid.selenium.proxy.DefaultRemoteProxy",
+    "maxSession": 1,
+    "register": true,
+    "registerCycle": 5000,
+    "hubPort": 4444,
+    "hubHost": "127.0.0.1"
+}
